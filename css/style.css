@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.orange-bg {
+    background-color: #fceae8;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.price {
+    color: #ff136f;
+}
+
+.btn-outline-success,
+.buy-now {
+    background-image: linear-gradient(to bottom, #ff5098 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn-outline-success:hover,
+.buy-now:hover {
+    opacity: 0.8;
+}
+
+.btn-outline-success {
+    font-weight: bold;
+    padding: 6px 22px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
