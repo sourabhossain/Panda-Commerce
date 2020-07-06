@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .navbar {
@@ -100,4 +100,19 @@ body {
 .cat3 {
     background: rgb(58, 58, 182);
     background: linear-gradient(137deg, rgba(58, 58, 182, 1) 11%, rgba(84, 84, 193, 1) 69%, rgba(140, 140, 222, 1) 93%);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    background: white;
+    border-top: none;
 }
