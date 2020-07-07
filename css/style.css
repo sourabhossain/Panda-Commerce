@@ -125,7 +125,7 @@ body {
     color: gray;
 }
 
-.form-control {
+#subscribe input {
     margin-bottom: 10px;
 }
 
